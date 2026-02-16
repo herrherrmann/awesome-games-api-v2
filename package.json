@@ -1,0 +1,24 @@
+{
+  "name": "awesome-games-api-v2",
+  "repository": {
+    "url": "https://github.com/herrherrmann/awesome-games-api-v2"
+  },
+  "author": "Sebastian Herrmann",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "1.19.9",
+    "hono": "4.11.9"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.17",
+    "prettier": "3.8.1",
+    "tsx": "4.7.1",
+    "typescript": "5.8.3"
+  }
+}

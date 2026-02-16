@@ -1,0 +1,8 @@
+# deps
+node_modules/
+
+# app
+dist
+
+# misc
+.DS_Store
