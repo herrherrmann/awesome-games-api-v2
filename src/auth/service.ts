@@ -1,6 +1,6 @@
 import axios from "axios";
-import { dataSource } from "../data-source.ts";
-import { AuthInfo } from "../entities/AuthInfo.ts";
+import { dataSource } from "../data-source.js";
+import { AuthInfo } from "../entities/AuthInfo.js";
 import { IsNull, Not } from "typeorm";
 
 type TwitchAuthResult = {

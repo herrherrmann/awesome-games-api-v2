@@ -1,6 +1,6 @@
 import { DataSource } from "typeorm";
-import { AuthInfo } from "./entities/AuthInfo.ts";
-import { Game } from "./entities/Game.ts";
+import { AuthInfo } from "./entities/AuthInfo.js";
+import { Game } from "./entities/Game.js";
 
 export const dataSource = new DataSource({
     type: "postgres",

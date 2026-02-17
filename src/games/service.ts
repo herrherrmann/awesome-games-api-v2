@@ -1,12 +1,12 @@
 import axios, { type AxiosInstance } from "axios";
 import { ascend, descend, differenceWith, prop, propOr, sortWith } from "ramda";
 import { Repository } from "typeorm";
-import { getAuthHeaders } from "../auth/service.ts";
-import { GAME_TYPES, IGDB_API } from "../constants/index.ts";
-import { dataSource } from "../data-source.ts";
-import { Game } from "../entities/Game.ts";
-import { GitHubGame } from "../types/github.ts";
-import { IGDB_Cover, IGDB_Game, IGDB_Genre } from "../types/igdb.ts";
+import { getAuthHeaders } from "../auth/service.js";
+import { GAME_TYPES, IGDB_API } from "../constants/index.js";
+import { dataSource } from "../data-source.js";
+import { Game } from "../entities/Game.js";
+import { GitHubGame } from "../types/github.js";
+import { IGDB_Cover, IGDB_Game, IGDB_Genre } from "../types/igdb.js";
 
 type GenresMap = { [genreId: string]: IGDB_Genre["name"] };
 type CoversMap = { [gameId in IGDB_Game["id"]]: IGDB_Cover };

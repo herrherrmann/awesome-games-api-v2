@@ -1,4 +1,4 @@
-import { Game } from "../entities/Game.ts";
+import { Game } from "../entities/Game.js";
 
 export type GitHubGame = Pick<
     Game,

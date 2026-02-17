@@ -2,8 +2,8 @@ import { serve } from "@hono/node-server";
 import "dotenv/config";
 import { Hono } from "hono";
 import "reflect-metadata";
-import { dataSource } from "./data-source.ts";
-import { GamesService } from "./games/service.ts";
+import { dataSource } from "./data-source.js";
+import { GamesService } from "./games/service.js";
 
 try {
     await dataSource.initialize();
