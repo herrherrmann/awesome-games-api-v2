@@ -8,13 +8,13 @@ export class Game {
   @Column("integer", { nullable: true })
   igdbId: number | null;
 
-  @Column({ length: 500 })
+  @Column("text")
   name: string;
 
   /**
    * The original name from the GitHub readme
    */
-  @Column({ length: 500 })
+  @Column("text")
   originalName: string;
 
   @Column("text", { nullable: true })

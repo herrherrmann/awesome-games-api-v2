@@ -9,19 +9,23 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "format": "prettier . --write"
   },
   "dependencies": {
     "@hono/node-server": "1.19.9",
     "dotenv": "17.3.1",
     "hono": "4.11.9",
     "pg": "^8.18.0",
-    "reflect-metadata": "^0.2.2",
+    "reflect-metadata": "0.2.2",
     "typeorm": "0.3.28"
   },
   "devDependencies": {
     "@types/node": "20.11.17",
+    "@types/ramda": "^0.31.1",
+    "axios": "^1.13.5",
     "prettier": "3.8.1",
+    "ramda": "^0.32.0",
     "tsx": "4.7.1",
     "typescript": "5.9.3"
   }
