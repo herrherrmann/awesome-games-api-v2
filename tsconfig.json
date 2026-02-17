@@ -1,20 +1,20 @@
 {
-  "compilerOptions": {
-    "target": "esnext",
-    "module": "nodenext",
-    "strict": true,
-    "verbatimModuleSyntax": false,
-    "skipLibCheck": true,
-    "types": ["node"],
-    "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx",
-    "outDir": "./dist",
-    "noEmit": true,
-    "allowImportingTsExtensions": true,
-    "experimentalDecorators": true,
-    "strictPropertyInitialization": false
-  },
-  "exclude": ["node_modules"],
-  "emitDecoratorMetadata": true,
-  "experimentalDecorators": true
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "nodenext",
+        "strict": true,
+        "verbatimModuleSyntax": false,
+        "skipLibCheck": true,
+        "types": ["node"],
+        "jsx": "react-jsx",
+        "jsxImportSource": "hono/jsx",
+        "outDir": "./dist",
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false
+    },
+    "exclude": ["node_modules"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
 }
