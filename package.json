@@ -13,20 +13,20 @@
     "format": "prettier . --write"
   },
   "dependencies": {
-    "@hono/node-server": "1.19.9",
-    "dotenv": "17.3.1",
-    "hono": "4.11.9",
-    "pg": "^8.18.0",
+    "@hono/node-server": "2.0.4",
+    "dotenv": "17.4.2",
+    "hono": "4.12.23",
+    "pg": "^8.21.0",
     "reflect-metadata": "0.2.2",
-    "typeorm": "0.3.28"
+    "typeorm": "1.0.0"
   },
   "devDependencies": {
-    "@types/node": "20.11.17",
+    "@types/node": "25.9.1",
     "@types/ramda": "^0.31.1",
-    "axios": "^1.13.5",
-    "prettier": "3.8.1",
+    "axios": "^1.16.1",
+    "prettier": "3.8.3",
     "ramda": "^0.32.0",
-    "tsx": "4.7.1",
-    "typescript": "5.9.3"
+    "tsx": "4.22.3",
+    "typescript": "6.0.3"
   }
 }
