@@ -23,10 +23,10 @@
   "devDependencies": {
     "@types/node": "25.9.1",
     "@types/ramda": "^0.31.1",
-    "axios": "^1.16.1",
+    "axios": "^1.17.0",
     "prettier": "3.8.3",
     "ramda": "^0.32.0",
-    "tsx": "4.22.3",
+    "tsx": "4.22.4",
     "typescript": "6.0.3"
   }
 }
